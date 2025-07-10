@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <label for="name">Name</label>
+      <input type="text" /><br /><br />
+      <label for="password">Passw</label>
+      <input type="password" /><br /><br />
+      <label for="">Gender</label><br />
+      <label for="Male">Male</label>
+      <input type="radio" name="M" id="Male" />
+      <label for="Female">Female</label>
+      <input type="radio" name="M" id="Female" /> <br /><br />
+      <label for="">Choose your bike</label><br /><br />
+      <select name="Bikes">
+        <option value="">Bikes</option>
+        <optgroup label="BMW">
+          <option value="">S1000RR</option>
+          <option value="">G310RR</option>
+          <option value="">GS310</option>
+        </optgroup>
+        <optgroup label="Yamaha">
+          <option value="">R1</option>
+          <option value="">R6</option>
+          <option value="">R15</option>
+        </optgroup>
+        <optgroup label="Ducati">
+          <option value="">Panigle V4</option>
+          <option value="">Panigle V4R</option>
+          <option value="">Ducati Streetfighter</option>
+        </optgroup></select
+      ><br /><br />
+      <br />
+      <fieldset>
+        <legend>Address</legend>
+        <label for="">City</label>
+        <input type="text" />
+        <br /><br />
+        <label for="">Pincode</label>
+        <input type="text" pattern="[0-9]{6,6}" title="enter 6 digit code" />
+      </fieldset>
+
+      <br /><br /><label for="">DOB</label>
+      <input type="text" onfocus="setAttribute('type','date')" />
+      <br /><br />
+      <input type="button" value="register" />
+    </form>
+  </body>
+</html>
